@@ -1,0 +1,22 @@
+.main-object {
+  background-color: black;
+  height: 100px;
+  color: white;
+  font-family: Arial;
+  text-align: left;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.main-object h1 {
+  vertical-align: middle;
+}
+
+body {
+  background-image: url("http://cdn.pcwallart.com/images/gradient-background-wallpaper-4.jpg");
+  background-position: center;
+  width: 100%
+  height: 100vh;
+  margin: 0;
+}
