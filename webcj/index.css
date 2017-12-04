@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
 .frame {
@@ -99,4 +100,110 @@
   text-transform: uppercase;
   font-weight: 300;
   margin-left: -4px;
+=======
+
+
+body {
+  background-color: #222222;
+>>>>>>> f231338a08b015a519f58cf422151f45796cf1b6
 }
+
+  .box{
+    display: block;
+    height: 400px;
+    width: 400px;
+    background-color: honeydew;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+  }
+
+    .pig-head{
+      display: block;
+      background-color: #fb949a;
+      width: 150px;
+      height: 150px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      margin-left: -80px;
+      margin-top: -80px;
+      border-radius: 100%;
+    }
+
+  .eye-right , .eye-left{
+    display: block;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 100%;
+    -border: black solid;
+    border-width: thin;
+  }
+
+  .eye-left{
+    position: relative;
+    top: 30%;
+    left: 20%;
+  }
+
+  .eye-right{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+  }
+
+  .nose {
+    display: block;
+    height: 40px;
+    width: 50px;
+    background-color: #ffb7bc;
+    border-radius: 100%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-left: -25px;
+  }
+
+  .nostrils-left , .nostrils-right{
+    height: 10px;
+    width: 10px;
+    display: block;
+    background-color: #fb949a;
+    border-radius: 100%;
+  }
+
+  .nostrils-left{
+    position: absolute;
+    top: 62%;
+    left: 42%;
+  }
+
+  .nostrils-right {
+    position:absolute;
+    top: 62%;
+    right: 42%;
+  }
+
+  .pupil-left , .pupil-right {
+    display: block;
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+
+  }
+
+  .pupil-right{
+    position: absolute;
+    top: 37%;
+    right: 27%;
+  }
+
+  .pupil-left{
+    position: absolute;
+    top: 37%;
+    left: 27%
+  }
